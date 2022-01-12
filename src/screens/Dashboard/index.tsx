@@ -16,7 +16,8 @@ import {
     HighLightCards,
     Title,
     Transactions,
-    TransactionList
+    TransactionList,
+    LogoutButton
 
 }  from './styles';
 
@@ -77,7 +78,9 @@ const data : DataListProps[] = [
                         <UserName>Danylo</UserName>
                     </User>
                 </UserInfo>
-                <Icon  name="power"/>
+                <LogoutButton onPress={() => {}} >
+                    <Icon  name="power"/>
+                </LogoutButton>
                 </UserWrapper>
 
                 
