@@ -10,6 +10,8 @@ import {
   Poppins_400Regular, Poppins_700Bold, Poppins_500Medium
 } from '@expo-google-fonts/poppins'
 
+import { SignIn } from './src/screens/SignIn';
+
 
 
 import theme from './src/global/styles/theme'
@@ -33,7 +35,7 @@ if(!fontsLoaded){
   return (
     <ThemeProvider theme={theme}>
       <NavigationContainer>
-        <AppRoutes   />
+        <SignIn   />
       </NavigationContainer>
     </ThemeProvider>
     
